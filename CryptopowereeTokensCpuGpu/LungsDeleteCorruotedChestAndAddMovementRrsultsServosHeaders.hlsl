@@ -28,4 +28,8 @@ void CSMain(uint3 dispatchThreadId : SV_DispatchThreadID)
     // simple placeholder: compute a trivial value for diagnostics
 
    //the first distributed value to start with is 5*10^9. it seems real in topology.
+
+   //now we can hijack gpuz themse lves with the same value.
+  //to overdrite gdram bits, we need to coppute groups that czn quantify this value and the values in 10^9 ranges.
+
 }
