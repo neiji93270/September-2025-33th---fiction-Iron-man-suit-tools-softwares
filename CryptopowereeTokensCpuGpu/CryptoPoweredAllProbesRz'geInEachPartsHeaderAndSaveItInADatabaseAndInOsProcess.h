@@ -16,6 +16,13 @@ class CryptoPoweredAllProbesHeaderDbOsProcess {
 public:
   void configure();
   void persist();
+
+//a way to calculate both signals ui/ux and high range numbers for 
+//contract functions would be to disable first the signals
+//between suit parts. then messages can occur. you must notice this is high energy
+//powered suit in this case and interlediate parts programs are relevant.
+//so this is engineering.
+ void persistOnMathsModulosTopologyHighEnergy();
 };
 
 } // namespace probes
