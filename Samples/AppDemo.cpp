@@ -28,6 +28,15 @@ int main()
     arms::TokensSoftLightContainers containers;
     containers.allocate();
     containers.allocate();
+
+    //there may be a way to handle simple containers and complex containers communications.
+    //so, hold a range like 10^88 complex containers.
+    // remember that we could drop chaotic systems. so it is better to hold 10^88 simple containers too.
+    //that said, forbid 10^17 or less numbers of containers com because abelian groups can have isomorphisms.
+    //so we dont need solvers and acidic behaviour can be handled in some computational processes beyond the algorithm
+    //at the end of this main function. dont patch it unless you have a container. that said, everything is clear
+    //and we can prevent high energy suit because we ised high range values in a convection process.
+    
     std::cout << "Allocated count: " << containers.getAllocatedCount() << "\n";
     containers.release();
     std::cout << "Allocated count after release: " << containers.getAllocatedCount() << "\n";
@@ -38,6 +47,13 @@ int main()
     }
     std::cout << "Step counter: " << algo.getStepCount() << "\n";
 
+
+    //a hijacked gpus are useless here. as we need cybersecurity and slow processes, we
+    //can use models if there is a common view of some parts of the algorithmn here. the intermediate level of
+    //the suit is now highlighted by a proxess model. lets use mnist model because it is ghe same in computer graphics intuition.
+    //the sorxerer model is now able to handle close range values with the high energy suit like 10^15 degrees.
+    //this is below 10^88 degrees. then, errors must occur then shitdown thebprocess.
+    ConvectionAndBothRaysProcessShutdownAlgorithmAndModelsGpu....
     return 0;
 }
 
